@@ -1,14 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>404 file not found</title>
-</head>
-
-<body>
-    <h1 style="text-align: center;">404 File Not Found</h1>
-</body>
-
-</html>
+class _404
+{
+    public function index()
+    {
+        echo '404 file not found';
+    }
+}

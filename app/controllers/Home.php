@@ -1,14 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
-</head>
-
-<body>
-    <h1>Home Controller Page</h1>
-</body>
-
-</html>
+class Home extends Controller
+{
+    public function index()
+    {
+        $this->view('home');
+    }
+}
